@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rive_demo/screens/demo_rive_screen.dart';
+import 'package:rive_demo/screens/youtube_rive_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DemoRiveScreen(),
+      home: const LoginScreen(),
     );
   }
 }
